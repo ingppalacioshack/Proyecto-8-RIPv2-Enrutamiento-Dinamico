@@ -116,6 +116,7 @@ conf t
 route rip
 network 192.168.3.0 !interface Gigabit del router
 network 192.168.5.0 !interface serial del router
+network 192.168.4.0 !interface serial del router
 version 2
 exit
 exit
