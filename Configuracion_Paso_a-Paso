@@ -14,7 +14,7 @@ los equipos de red en tres segmentos de red diferentes.
 ================
 CONFIGURACIONES
 ==============
-ROUTER0 IZQUIERDO
+ROUTER0 IZQUIERDO (añadir interface HWC-2T) Modelo 2911
 ==============
 (config interface gigabit)
 ena
@@ -33,7 +33,7 @@ do write
 exit
 
 ==============
-ROUTER1 CENTRAL
+ROUTER1 CENTRAL (añadir interface HWC-2T) Modelo 2911
 ==============
 ena
 conf t
@@ -57,7 +57,7 @@ do write
 exit
 
 ==============
-ROUTER2 DERECHO
+ROUTER2 DERECHO (añadir interface HWC-2T) Modelo 2911
 ==============
 
 ena
