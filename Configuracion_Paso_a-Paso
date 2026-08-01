@@ -13,9 +13,9 @@ los equipos de red en tres segmentos de red diferentes.
 
 ================
 CONFIGURACIONES
-=======
-ROUTER0
-=======
+==============
+ROUTER0 IZQUIERDO
+==============
 (config interface gigabit)
 ena
 conf t
@@ -27,14 +27,14 @@ exit
 
 (config interface serial derecha)
 interface serial0/0/0
-ip address 192.168.4.1 255.255.255.0
+ip address 192.168.4.1 
 no shut
 do write
 exit
 
-=======
-ROUTER1
-=======
+==============
+ROUTER1 CENTRAL
+==============
 ena
 conf t
 
@@ -51,19 +51,19 @@ do write
 exit
 
 interface serial0/0/1   !(config interface serial derecha)
-ip adrees 192.168.5.2
+ip address 192.168.5.1
 no shut
 do write
 exit
 
-=======
-ROUTER2
-=======
+==============
+ROUTER2 DERECHO
+==============
 
 ena
 conf t
 interface serial0/0/0
-ip address 192.168.5.1 255.255.255.0
+ip address 192.168.5.2
 no shut
 do write
 exit
