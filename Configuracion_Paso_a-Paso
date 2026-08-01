@@ -5,11 +5,11 @@ Ing.Pablo Palacios
 PROTECTO DE REDES DE COMPUTADORAS
 PACKET TRACER DE CISCO
 CONFIGURAR UNA RED BÁSICA CON 
-3 SEGMENTOS DE RED.
+3 SEGMENTOS DE RED PUNTO A PUNTO 
 
 Objetivo:
 Enseñar a los estudiantes la configuración en packet tracert
-los equipos de red en tres segmentos de red diferentes.
+los equipos de red en tres segmentos de red diferentes con punto /30
 
 ================
 CONFIGURACIONES
